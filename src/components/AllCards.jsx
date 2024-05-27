@@ -11,12 +11,42 @@ export default function AllCards() {
                 title="Life lessons with Asya Denysova"
                 price="136"
             />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card
+                img="card-img.png"
+                status="SOLD OUT"
+                rating="4.0"
+                reviews="6"
+                location="USA"
+                title="Life lessons with Asya Denysova"
+                price="136"
+            />
+            <Card
+                img="card-img.png"
+                status="SOLD OUT"
+                rating="4.0"
+                reviews="6"
+                location="USA"
+                title="Life lessons with Asya Denysova"
+                price="136"
+            />
+            <Card
+                img="card-img.png"
+                status="SOLD OUT"
+                rating="4.0"
+                reviews="6"
+                location="USA"
+                title="Life lessons with Asya Denysova"
+                price="136"
+            />
+            <Card
+                img="card-img.png"
+                status="SOLD OUT"
+                rating="4.0"
+                reviews="6"
+                location="USA"
+                title="Life lessons with Asya Denysova"
+                price="136"
+            />
         </div>
         
     )

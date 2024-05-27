@@ -44,6 +44,10 @@ body {
 
           }
 
+.all-cards {
+  display: flex;
+}
+
 .card {
   padding: 0px 0px 0px 50px;
   display: flex;

@@ -1,21 +1,21 @@
-export default function Card(props) {
+export default function Card({img, status, rating, reviews, location, title, price}) {
     return (
         <div className="card">
             <div className="image-status">
-            <img className="card-pic" src={props.img}/>
-            <p className="status">{props.status}</p>
+            <img className="card-pic" src={img}/>
+            <p className="status">{status}</p>
             </div>
             
             <div className="card--first-line">
                 <img src="star.png" />
-                <p>{props.rating}</p>
+                <p>{rating}</p>
                 <span className="first-line--second-part">
-                    <p>({props.reviews})</p>
-                    <p>{props.location}</p>
+                    <p>({reviews})</p>
+                    <p>{location}</p>
                 </span>
             </div>
-            <p>{props.title}</p>
-        <p><strong>From ${props.price}</strong> / person</p>
+            <p>{title}</p>
+        <p><strong>From ${price}</strong> / person</p>
 
         </div>
     )

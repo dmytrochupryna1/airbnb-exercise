@@ -78,6 +78,8 @@ body {
 
           .card-pic {
             margin-bottom: 0px;
+            width: 250px;
+            border-radius: 25px;
           }
 
           .card--first-line {
@@ -89,6 +91,9 @@ body {
 
           .card--first-line > p {
             margin: 5px; 
+          }
+          .first-line--second-part > p {
+            padding-right: 5px;
           }
 
           .first-line--second-part {

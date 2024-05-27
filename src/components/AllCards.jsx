@@ -5,6 +5,10 @@ export default function AllCards() {
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
         </div>
         
     )

@@ -1,21 +1,21 @@
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
             <div className="image-status">
-            <img className="card-pic" src="card-img.png"/>
-            <p className="status">SOLD OUT</p>
+            <img className="card-pic" src={props.img}/>
+            <p className="status">{props.status}</p>
             </div>
             
             <div className="card--first-line">
                 <img src="star.png" />
-                <p>5.0</p>
+                <p>{props.rating}</p>
                 <span className="first-line--second-part">
-                    <p>(6)</p>
-                    <p>USA</p>
+                    <p>({props.reviews})</p>
+                    <p>{props.location}</p>
                 </span>
             </div>
-            <p>Life lessons with Katie Zafares</p>
-            <p><strong>From $136</strong> / person</p>
+            <p>{props.title}</p>
+        <p><strong>From ${props.price}</strong> / person</p>
 
         </div>
     )

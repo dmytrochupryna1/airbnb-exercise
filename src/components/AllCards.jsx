@@ -34,7 +34,7 @@ export default function AllCards() {
                 status="SO HOT"
                 rating="2.7"
                 reviews="2"
-                location="August Garden Villas"
+                location="Ban Thai"
                 title="Hot yoga with Yunka"
                 price="14"
             />

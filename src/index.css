@@ -44,6 +44,41 @@ body {
 
           }
 
+.card {
+  padding: 0px 0px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-bottom: 50px;
+}
+          .card > p {
+            margin: 5px;
+          }
+
+          .card-pic {
+            margin-bottom: 0px;
+          }
+
+          .card--first-line {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            
+          }
+
+          .card--first-line > p {
+            margin: 5px; 
+          }
+
+          .first-line--second-part {
+            display: flex;
+            color: rgb(163, 162, 161);
+          }
+
+          .first-line--second-part > p {
+            margin: 0;
+          }
+
 
 
 /* #root {

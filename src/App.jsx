@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Card from './components/Card'
+// import AllCards from './components/AllCards'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       
       <Navbar />
       <Hero />
+      {/* <AllCards /> */}
+      <Card />
     </>
   )
 }

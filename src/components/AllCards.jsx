@@ -4,16 +4,10 @@ import cardData from '../cardData.js'
 console.log(cardData)
 
 export default function AllCards() {
-    const renderCardData = cardData.map((card) => {
+    const renderCardData = cardData.map((item) => {
         return <Card
-            key={card.id}
-            img={card.img}
-            status={card.status}
-            rating={card.rating}
-            reviews={card.reviews}
-            location={card.location}
-            title={card.title}
-            price={card.price}
+            key={item.id}
+            item={item}
         />
     })
     return (

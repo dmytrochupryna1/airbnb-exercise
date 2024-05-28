@@ -14,7 +14,7 @@ export default [
         status: "MYSTERIOUS",
         rating: 5.0,
         reviews: 99,
-        location: "BELGIUM",
+        location: "PERSIA",
         title: "Let's go on a date",
         price: 1050
     }, {

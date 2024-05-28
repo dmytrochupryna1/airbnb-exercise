@@ -6,6 +6,7 @@ console.log(cardData)
 export default function AllCards() {
     const renderCardData = cardData.map((card) => {
         return <Card
+            key={card.id}
             img={card.img}
             status={card.status}
             rating={card.rating}
